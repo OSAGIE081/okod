@@ -1,0 +1,48 @@
+.name{color: blue; background-color: white;}
+.container{background-color: aqua;color: brown;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin-bottom: 40px;
+}
+.header .logo img{
+    width: 30px;
+}
+.header div ul li{
+    float: left;
+    margin: 5px;
+    list-style: none;
+}
+.header div ul li a{   
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.header div li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.header .menu .line{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+}
+.container{
+    color: white;
+    background-image: url(../images/ba.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+
+}
+
+    
